@@ -1,0 +1,13 @@
+# Secrets — never commit the Groq key
+.env
+
+# Local state written at runtime
+content_store.json
+audit_log.json
+*.tmp
+server.log
+
+# Python
+.venv/
+__pycache__/
+*.pyc
